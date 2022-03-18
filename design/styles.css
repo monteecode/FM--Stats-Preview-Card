@@ -1,0 +1,49 @@
+main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: hsl(233, 47%, 7%);
+  min-height: 100vh;
+}
+
+h3 {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 40px;
+}
+
+section {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+  background-color: hsl(244, 38%, 16%);
+}
+
+.card_text {
+  padding: 60px;
+  margin-bottom: 40px;
+}
+
+.card_stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+}
+
+footer {
+  width: 100%;
+  align-self: flex-end;
+  color: white;
+}
