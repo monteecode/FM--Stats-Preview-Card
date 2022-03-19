@@ -7,7 +7,7 @@ main {
   color: white;
   background-color: hsl(233, 47%, 7%);
   min-height: 100vh;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 span {
@@ -21,7 +21,7 @@ img {
 h3 {
   font-size: 2em;
   font-weight: 700;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   line-height: 1.2;
 }
 
@@ -31,17 +31,18 @@ h4 {
 }
 
 p {
-  margin-top: 5px;
-  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  letter-spacing: 1px;
   font-size: 0.9em;
   line-height: 1.7;
   font-weight: 100;
 }
 
 small {
-  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
   font-size: 0.7em;
   font-weight: 100;
+  letter-spacing: 0.7px;
 }
 
 section {
@@ -52,6 +53,7 @@ section {
 }
 
 .card_text {
+  display: grid;
   padding: 60px;
   margin-bottom: 40px;
 }
@@ -60,6 +62,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-top: 40px;
+  align-self: end;
 }
 
 footer {
