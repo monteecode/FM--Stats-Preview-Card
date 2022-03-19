@@ -55,18 +55,41 @@ section {
 .card_text {
   display: grid;
   padding: 60px;
-  margin-bottom: 40px;
 }
 
 .card_stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 40px;
   align-self: end;
+}
+
+.card_stats div {
+  grid-template-rows: repeat(3, 1fr);
 }
 
 footer {
   width: 100%;
   align-self: flex-end;
   color: white;
+}
+
+@media screen and (max-width: 799px) {
+  section {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card_image {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .card_text {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .card_stats {
+    grid-template-rows: repeat(3, 1fr);
+  }
 }
